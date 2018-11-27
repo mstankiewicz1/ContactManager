@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import AppHeader from './AppHeader.jsx';
 import ContactList from './ContactList.jsx';
+import FilterUsers from '/FilterUsers.jsx';
 
 class MainComponent extends React.Component {
 
@@ -10,6 +11,7 @@ class MainComponent extends React.Component {
         return (
             <div>
                 <AppHeader/>
+                <FilterUsers/>
                 <main className="mainContactList">
                     <ContactList/>
                 </main>
